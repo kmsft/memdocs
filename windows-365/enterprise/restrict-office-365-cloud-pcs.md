@@ -33,7 +33,7 @@ ms.collection: M365-identity-device-management
 Administrators can deny access to Office 365 services on any device other than a Cloud PC. To do so, you can configure Azure Active Directory (Azure AD) Conditional Access policies and [device filters](/azure/active-directory/conditional-access/concept-condition-filters-for-devices) as described in this article. By following these steps, you can make sure that users use their Cloud PCs as their primary device. In this way, you can improve security for your corporate resources and services.
 
 This article describes how to limit access to Office 365 services. You can use the same strategy with any cloud service that uses Azure Active Directory as the authentication source.
-
+rf342rf4r423r4
 1. Create an Azure AD security group to manage which users are controlled by the new policy. Add to this group all the Cloud PC users who will be subjected to the new policy. Only users in this group will be restricted to using Cloud PCs when accessing Office 365 services. If you want to change a user’s access, you can just remove them from this group.
 2. Sign in to [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431), select **Endpoint security** > **Conditional Access** > **New Policy**.
     ![Create conditional access policy screen shot](./media/restrict-office-365-cloud-pcs/create-conditional-policy.png)
