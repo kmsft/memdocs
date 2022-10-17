@@ -45,7 +45,7 @@ You can optionally apply Windows 365 security baselines to the Azure AD groups c
 
 1. Sign in to the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431) select **Endpoint Security** > **View Security Baselines**.
 ![Screenshot of view security baselines](./media/deploy-security-baselines/view-security-baselines.png)
-2. Select **Cloud PC Security Baseline (Preview)**.
+2. Select **Windows 365 Security Baseline**.
 3. Select **Create Profile** and provide a name for your profile.
 4. On the **Configuration settings** tab, view the groups of settings that are available in the baseline you selected. You can expand a group to view the settings in that group, and the default values for those settings in the baseline. To find specific settings:
     - Select a group to expand and review the available settings.
