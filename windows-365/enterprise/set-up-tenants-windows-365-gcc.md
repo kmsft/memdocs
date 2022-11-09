@@ -30,6 +30,11 @@ ms.collection: M365-identity-device-management
 
 # Set up tenants for Windows 365 Government
 
+Use the following procedures to allow Intune to manage your Windows 365 Cloud PCs in Government Community Cloud (GCC).
+
+> [!NOTE]
+> These instructions are specifically for GCC tenants, and not GCC High tenants. 
+
 For Windows 365 to function in the Government Community Cloud (GCC) environment, customers must prepare one commercial Azure domain (.com) tenant with an onmicrosoft.com address. If you want to use configuration options described in this article, you must also prepare one Azure Government domain (.us) tenant with an onmicosoft.us address.
 
 ## Commercial Azure tenant (.com)
